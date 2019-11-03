@@ -1,0 +1,196 @@
+    /* RESET */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/bg-2.png");
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.container{
+    max-width: 1140px;
+    width: 90%;
+    margin: 50px;
+}
+/*STYLE DE INDEX-----------------------------------------*/
+/* HEADER */
+
+header {
+    background-color: red;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+header section.header{
+    float: left;
+    margin: 10px 20px;
+}
+header section#registro{
+    float: right;
+}
+header section.header a{
+    color: white;
+    display: inline-block;
+    padding: 0.9em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* FLOAT-CENTRAL */
+
+div#float-central{
+    overflow: hidden;
+}
+div#float-central .col{
+    float: left;
+    margin: 10px;
+}
+div#float-central #productos{
+    width: 65%;
+}
+div#float-central #columna-derecha{
+    width: 30%;
+}
+
+/*FLOAT DE PRODUCTOS*/
+main{
+    background-color: white;
+    overflow: hidden;
+}
+main article{
+    float: left;
+    width: 47%;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+main article img{
+   width: 100%
+}
+main article button{
+   margin: 10px 0;
+   background-color: red;
+   color: white;
+   padding: 5px;
+   text-transform: uppercase;
+}
+
+/*FLOAT DE TUTORIALES*/
+section#columna-derecha section#tutoriales{
+   width: 100%;
+}
+section#columna-derecha section#tutoriales div{
+   background-color: white;
+   text-transform: capitalize;
+   margin-bottom: 10px;
+}
+section#tutoriales article{
+   overflow: hidden;
+   background-color: white;
+   margin-bottom: 3px;
+   font-size: 0.8em;
+}
+section#tutoriales article img{
+   display: block;
+   float: left;
+}
+section#tutoriales article h3{
+   float: right;
+   padding: 20px;
+   
+}
+
+/*PUBLICIDAD*/
+section#publi h2{
+   background-color: white;
+   text-transform: capitalize;
+   margin: 10px 0;
+}
+section#publi article{
+   background-color: white;
+   text-align: center;
+}
+section#publi article img{
+   width: 300px;
+   height: 250px;
+   margin: 10px;
+}
+
+/*STYLE DE LOGIN-------------------------------------------*/
+main#formulario{
+    width: 350px;
+    margin: 30px auto;
+    background-image:url(../img/bg-2.png) ;
+
+}
+main#formulario form#frm-login h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+main#formulario form#frm-login > *{
+    display: block;
+    margin: 5px 1px;
+}
+main#formulario form#frm-login label{
+    text-transform: capitalize;
+}
+main#formulario form#frm-login div.rememberme{
+    text-align: right;
+    margin-bottom: 20px;
+}
+main#formulario form#frm-login input[type="email"],
+main#formulario form#frm-login input[type="password"]{
+    margin-bottom: 15px;
+    width: 100%;
+}
+main#formulario form#frm-login span{
+    color: red;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+}
+main#formulario form#frm-login button{
+    background-color: rgb(66, 94, 250);
+    color: #fff;
+    border-radius: 6px;
+    width: 6.5em;
+    height: 5vh;
+}
+/*STYLE DE REGISTRO-------------------------------------------*/
+main#formulario form#frm-registro h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+main#formulario form#frm-registro > *{
+    display: block;
+    margin: 5px 1px;
+}
+main#formulario form#frm-registro label{
+    text-transform: capitalize;
+}
+main#formulario form#frm-registro span.obligatorio{
+    color:red;
+    font-size: 0.6em;
+}
+main#formulario form#frm-registro h2,
+main#formulario form#frm-registro h4{
+    margin: 20px 0px;
+}
+main#formulario form#frm-registro div{
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+main#formulario form#frm-registro button{
+    background-color: rgb(66, 94, 250);
+    color: #fff;
+    border-radius: 6px;
+    width: 6.5em;
+    height: 5vh;
+}
+main#formulario form#frm-registro input[type="email"],
+main#formulario form#frm-registro input[type="password"],
+main#formulario form#frm-registro input[type="text"]{
+    width: 100%;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Registro</title>
+</head>
+
+<body>
+   <div class="container">
+      <header>
+         <section id="logo" class="header">
+            <img src="./img/logo.png" alt="company logo">
+         </section><!-- id="logo" -->
+
+         <section id="menu" class="header">
+            <nav>
+               <a href="./index.html">smartphones</a>
+               <a href="./index.html">tablets</a>
+               <a href="./index.html">computadoras</a>
+            </nav>
+         </section><!-- id="menu" -->
+
+         <section id="registro" class="header">
+            <nav>
+               <a href="./login.html">login</a>
+               <a href="#">registro</a>
+            </nav>
+         </section><!-- id="registro" -->
+      </header>
+      
+      <main id="formulario">
+         <form id="frm-registro">
+            <h1>registrate</h1>
+
+            <label for="name">nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre" required>
+            <span class="obligatorio">Obligatorio</span>
+
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <span class="obligatorio">Obligatorio</span>
+
+            <label for="password">Contrasenia</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+            <span class="obligatorio">Obligatorio</span>
+            
+            <section>
+               <h2>Pais de Nacimiento</h2>
+
+               <select name="pais" id="pais">
+                  <option value="none">Por favor elija uno</option>
+                  <option value="venezuela">Venezuela</option>
+                  <option value="argentina">Argentina</option>
+                  <option value="colombia">Colombia</option>                  
+               </select>
+            </section>
+            <span class="obligatorio">Obligatorio</span>
+
+            <div class="genero">
+               <h2>Genero</h2>
+               <input type="radio" name="genero" id="male" value="male">
+               <label for="male">Masculino</label>
+
+               <input type="radio" name="genero" id="female" value="female">
+               <label for="female">Femenino</label>
+
+               <input type="radio" name="genero" id="other" value="other">
+               <label for="other">Prefiero no decirlo</label>
+            </div><!-- class="genero" -->
+
+            <div class="hobbies">
+               <h2>Hobbies</h2>
+               <input type="checkbox" name="hobbies" value="g">
+               <label for="">Guitarra</label>
+
+               <input type="checkbox" name="hobbies" value="f">
+               <label for="">Futbol</label>
+
+               <input type="checkbox" name="hobbies" value="t">
+               <label for="">Tenis</label>
+
+               <input type="checkbox" name="hobbies" value="p">
+               <label for="">Programacion</label>
+            </div><!-- class="hobbies" -->
+
+            <div>
+               <h2>Dejanos tus comentarios</h2>
+               <textarea name="comments" id="ta-comments" form="frm-registro" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="acept">
+               <input type="checkbox" name="acept" id="acept">
+               <label for="acept">Acepto los terminos y condiciones</label>
+            </div>
+
+            <div class="enviar-input">
+               <h4>Boton enviar con etiquera con etiqueta input</h4>
+               <input type="button" value="Registrarme">
+               <input type="button" value="Cancelar">
+            </div>
+
+            <div class="enviar-button">
+               <h4>Boton enviar con etiquera con etiqueta button</h4>
+               <button id="btn-frm-registro">Registrarme</button>
+               <button id="btn-frm-registro">Cancelar</button>
+            </div>
+         </form>
+      </main>
+   </div><!--div id=container-->
+</body>
+
+</html>
